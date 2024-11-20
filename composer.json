@@ -1,0 +1,26 @@
+{
+    "name": "kimbocare/core",
+    "description": "This library will contain mostly utility functions for various purposes.",
+    "type": "library",
+    "version": "1.0.2",
+    "autoload": {
+        "psr-4": {
+            "Kimbocare\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RoslynM21",
+            "email": "roslyn.temateu@kimbocare.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "intervention/image": "^2.6"
+    },
+    "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
